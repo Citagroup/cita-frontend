@@ -6,6 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+    <Route path="/employee/timetracking" element={<TimeTracking />} />
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
       </Routes>
